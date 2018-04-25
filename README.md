@@ -84,3 +84,4 @@ While its important to get used to reading React code and asserting its function
 - [React Documentation: Components](https://reactjs.org/docs/react-component.html)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/react-components-lab'>Components Lab</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>PHRG React Components Lab</p>
