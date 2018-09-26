@@ -37,16 +37,16 @@ export class InFrontOfYou extends React.Component {
 
 export class ButcherShop extends React.Component {
   render() {
-    return (
-      <div class="butcher-shop">
-        <p>Hello! We have the following products for sale today:</p>
-          <ul>
-            <li>Tenderloin</li>
-            <li>Short ribs</li>
-            <li>Beef shin</li>
-            <li>Ribeye</li>
-          </ul>
-      </div>
+    var products = ['Tenderloin', 'Short ribs', 'Beef shin', 'Ribeye'];
+      return (
+        <div class="butcher-shop">
+          <p>Hello! We have the following products for sale today:</p>
+            <ul>
+              {products.map(function(product, index){
+                return <li key={ index }>{product}</li>;
+              })}
+            </ul>
+        </div>
     )
   }
 }
